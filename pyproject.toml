@@ -1,0 +1,9 @@
+[project]
+name = "api-test"
+version = "0.1.0"
+description = "Basic usage of an API interfaced through Python"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.32.4",
+]
