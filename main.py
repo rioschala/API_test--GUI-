@@ -6,6 +6,7 @@ root.title("API on call button")
 
 result_label = ttk.Label(root, text="Waiting...")
 result_label.pack(pady=10)
+#use lambda to avoid inmediate execution of functions on command when name == main
 button = ttk.Button(root, text="Click me to get a no reason", command=lambda: on_button_click(result_label))
 button.pack()
 
